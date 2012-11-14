@@ -1,0 +1,24 @@
+{
+    "name":        "rollerworks/cache",
+    "description": "Rollerworks Cache Component",
+    "keywords":    ["rollerworks", "cache", "doctrine", "symfony"],
+    "type":        "library",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Sebastiaan Stok",
+            "email": "s.stok@rollercapes.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/http-foundation": "2.*",
+        "doctrine/common": ">=2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rollerworks\\Component\\Cache\\": ""
+        }
+    },
+    "target-dir": "Rollerworks/Component/Cache"
+}
