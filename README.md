@@ -57,11 +57,14 @@ use Rollerworks\Component\Cache\SessionCache;
 $session = new Session();
 $session->start();
 
-// ... 
+// ...
 
-// The first paramater of the SessionCache must be a `Symfony\Component\HttpFoundation\Session\Session` object.
-// The second is an optional session bag name, the default is 'cache'.
-$sessionCacheDriver = new SessionCache($session, 'my_cache');
+// The first parameter of the SessionCache must be a `Symfony\Component\HttpFoundation\Session\Session` object.
+// The second parameter is an optional session storageKey that used for storing the session, default is '_rollerworks_cache'.
+// The third parameter is an optional SessionCacheBag object
+
+// When a SessionCacheBag is provided, it must be registered at the session by calling registerBag() on the $session object.
+$sessionCacheDriver = new SessionCache($session, '_my_cache');
 
 // Now you can use the $sessionCacheDriver object for any Doctrine Caching.
 // See the resources below for more information.
