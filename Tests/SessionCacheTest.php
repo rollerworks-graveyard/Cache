@@ -61,10 +61,11 @@ class SessionCacheTest extends \PHPUnit_Framework_TestCase
         $cache->save('foo', 'bar', 2);
         $this->assertTrue($cache->contains('foo'));
 
-        sleep(2);
+        sleep(3);
 
         // This should return false as the cache is expired
         $this->assertFalse($cache->contains('foo'));
+        $this->assertFalse($cache->fetch('foo'));
     }
 
     protected function setUp()
