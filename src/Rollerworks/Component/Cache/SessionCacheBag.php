@@ -12,7 +12,6 @@
 namespace Rollerworks\Component\Cache;
 
 use Symfony\Component\HttpFoundation\Session\SessionBagInterface;
-use Doctrine\Common\Cache\CacheProvider;
 
 /**
  * SessionCacheBag.

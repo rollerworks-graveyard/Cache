@@ -13,7 +13,7 @@
         >
     <testsuites>
         <testsuite name="Rollerworks Cache Component Test Suite">
-            <directory>./test/Rollerworks/Component/Cache/Tests/</directory>
+            <directory>./tests/Rollerworks/Component/Cache/Tests/</directory>
         </testsuite>
     </testsuites>
 
