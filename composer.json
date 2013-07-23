@@ -17,10 +17,9 @@
     },
     "autoload": {
         "psr-0": {
-            "Rollerworks\\Component\\Cache\\": ""
+            "Rollerworks\\Component\\Cache\\": "src/"
         }
     },
-    "target-dir": "Rollerworks/Component/Cache",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"

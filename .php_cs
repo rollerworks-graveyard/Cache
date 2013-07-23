@@ -4,9 +4,8 @@ $finder = Symfony\CS\Finder\DefaultFinder::create()
     ->name('*.php')
     ->ignoreDotFiles(true)
     ->ignoreVCS(true)
-    ->exclude('vendor')
-    ->exclude('.idea')
-    ->in(__DIR__)
+    ->in(__DIR__ . '/src')
+    ->in(__DIR__ . '/tests')
 ;
 
 return Symfony\CS\Config\Config::create()

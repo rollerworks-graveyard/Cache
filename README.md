@@ -14,7 +14,7 @@ http://getcomposer.org/ or just run the following command:
 
     curl -s http://getcomposer.org/installer | php
 
-Then just add the following to your
+Then add the following to your
 `composer.json` file:
 
 ```js
