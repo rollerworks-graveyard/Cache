@@ -1,6 +1,9 @@
 Cache Component
 ===============
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/3f9a632c-e024-4e9c-96fd-eb628978e08d/mini.png)](https://insight.sensiolabs.com/projects/3f9a632c-e024-4e9c-96fd-eb628978e08d)
+[![Build Status](https://travis-ci.org/rollerworks/Cache.png?branch=master)](https://travis-ci.org/rollerworks/Cache)
+
 The Rollerworks Cache component provides a Session based cache-driver
 for Doctrine Common. (Cache data is stored in a session).
 
