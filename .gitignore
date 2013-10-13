@@ -1,5 +1,4 @@
 *.bak
-.idea
 phpunit.xml
 composer.lock
 composer.phar
