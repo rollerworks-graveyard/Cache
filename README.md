@@ -26,13 +26,10 @@ Then add the following to your
     // ...
     require: {
         // ...
-        "rollerworks/cache": "master-dev"
+        "rollerworks/cache": "~1.0"
     }
 }
 ```
-
-**NOTE**: Please replace `master-dev` in the snippet above with the latest stable
-branch, for example ``1.0.*``.
 
 Then, you can install the new dependencies by running Composer's ``update``
 command from the directory where your ``composer.json`` file is located:
