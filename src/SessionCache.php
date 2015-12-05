@@ -1,9 +1,9 @@
 <?php
 
-/**
+/*
  * This file is part of the RollerworksCache component package.
  *
- * (c) 2012 Sebastiaan Stok <s.stok@rollerscapes.net>
+ * (c) Sebastiaan Stok <s.stok@rollerscapes.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -11,8 +11,8 @@
 
 namespace Rollerworks\Component\Cache;
 
-use Symfony\Component\HttpFoundation\Session\Session;
 use Doctrine\Common\Cache\CacheProvider;
+use Symfony\Component\HttpFoundation\Session\Session;
 
 /**
  * Doctrine Session Cache-driver.
@@ -90,11 +90,11 @@ class SessionCache extends CacheProvider
         return true;
     }
 
-     /**
+    /**
      * {@inheritdoc}
      */
     protected function doGetStats()
     {
-        return null;
+        return;
     }
 }

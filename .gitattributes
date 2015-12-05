@@ -8,4 +8,5 @@ core.autocrlf=lf
 .travis.yml export-ignore
 .php_cs export-ignore
 phpunit.xml.dist export-ignore
-Tests export-ignore
+
+/tests export-ignore

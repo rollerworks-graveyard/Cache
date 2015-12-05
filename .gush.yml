@@ -1,11 +1,14 @@
-adapter: github
-issue_tracker: github
-meta-header: "This file is part of the RollerworksCache component package.\n\n(c) 2012 Sebastiaan Stok <s.stok@rollerscapes.net>\n\nThis source file is subject to the MIT license that is bundled\nwith this source code in the file LICENSE."
+# Gush configuration file, any comments will be lost.
+meta-header: "This file is part of the RollerworksCache component package.\n\n(c) Sebastiaan Stok <s.stok@rollerscapes.net>\n\nThis source file is subject to the MIT license that is bundled\nwith this source code in the file LICENSE."
 table-pr:
-    bug_fix: ['Bug Fix?', no]
-    new_feature: ['New Feature?', no]
-    bc_breaks: ['BC Breaks?', no]
-    deprecations: ['Deprecations?', no]
-    tests_pass: ['Tests Pass?', no]
+    bug_fix: ['Bug Fix?', 'no']
+    new_feature: ['New Feature?', 'no']
+    bc_breaks: ['BC Breaks?', 'no']
+    deprecations: ['Deprecations?', 'no']
     fixed_tickets: ['Fixed Tickets', '']
     license: [License, MIT]
+repo_adapter: github
+repo_org: rollerworks
+repo_name: Cache
+issue_project_org: rollerworks
+issue_project_name: Cache
